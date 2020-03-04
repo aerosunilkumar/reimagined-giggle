@@ -1,0 +1,17 @@
+{
+  "name": "URL Validator",
+  "version": "1.0",
+  "description": "URL Validation",
+  "icons": {
+    "16": "images/green16.png",
+    "128": "images/green128.png"
+  },
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_title": "URL Validator"
+  },
+  "background": {
+    "scripts": ["background/index.js"]
+  },
+  "manifest_version": 2
+}
